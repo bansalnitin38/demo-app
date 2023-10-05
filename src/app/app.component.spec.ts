@@ -7,13 +7,13 @@ import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
 
-
+  // this code is only used for testing purpose .
   beforeEach(waitForAsync(() => {
 
     TestBed.configureTestingModule({
       declarations: [AppComponent],
       schemas: [CUSTOM_ELEMENTS_SCHEMA],
-      imports: [ RouterTestingModule.withRoutes([])],
+      imports: [RouterTestingModule.withRoutes([])],
     }).compileComponents();
   }));
 
