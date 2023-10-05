@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
 
-  // this code is only used for testing purpose 
+  // this code is only used for testing purpose .
   beforeEach(waitForAsync(() => {
 
     TestBed.configureTestingModule({
